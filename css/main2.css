@@ -1,0 +1,154 @@
+/***** BASE STYLES *****/
+ul {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.containter {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/***** HEADER *****/
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header span {
+    color: #77a466;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    float: left;
+    margin: 0 auto;
+    padding: 40px 0;
+    
+}
+header nav {
+     float: right;
+    padding: 40px 121px;
+}
+
+  nav ul li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+/***** TOP SECTION *****/
+.about p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+}
+
+.about h2 {
+    color:#77a466;
+    font-size: 18px;
+    padding: 5px 0;
+    text-align: left;
+}
+
+img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+    height: auto;
+    margin: 0 auto;
+}
+
+/***** TOP AND BOTTOM *****/
+.top-section, .bottom-section {
+    clear: both;
+    margin: 0 auto;
+}
+
+/***** BOTTOM SECTION *****/
+
+.review, .menu, .address {
+    border-top: 1px solid #eee;
+	float: left;
+    font-size: 16px;
+    height: auto;
+    width: 399px;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+
+.review h3, .address h3 {
+    padding: 0 30px 0;
+}
+
+ .bottom-section h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+/***** So you may wonder why I didn't add the border-right to the menu class. My reasoning for that is I realized I can just add border-left to review and get the same result with less code.*****/
+.review {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    line-height: 23px;
+}
+
+.review p{
+    padding: 0 30px;
+
+}
+
+.menu li {
+    color: #77a466;
+    padding: 10px 0;
+}
+
+#contact, .address a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.address{
+    line-height: 24px;
+}
+
+#location {
+    padding: 0 29px;
+}
+/***** FOOTER *****/
+footer {
+	border-top: 1px solid #eeee;
+    clear: both;
+    height:50px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    padding:35px 0;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 14px;
+    text-transform: lowercase;
+}
